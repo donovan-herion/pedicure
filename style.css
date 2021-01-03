@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 100vh;
+}
+
+.d-navbar {
+  height: 150px;
+}
+
+.background {
+  background-image: url(./background-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.services {
+}
+
+.service {
+  width: 300px;
+}
+
+.service-img {
+  height: 200px;
+  width: 200px;
+}
+
+.prix {
+  background-color: #f1eee9;
+}
+
+.contact {
+  height: 75vh;
+
+  background-image: url(./portrait.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: #f1eee9;
+}
