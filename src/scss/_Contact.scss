@@ -1,0 +1,33 @@
+.contact {
+  height: 75vh;
+  background-image: url(../images/portrait.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container {
+    margin-left: 50%;
+    margin-right: 10%;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      font-family: "Playfair Display", serif;
+      font-size: 3rem;
+      font-weight: 300;
+    }
+    button {
+      font-family: "Roboto", serif;
+      text-decoration: none;
+      color: white;
+      outline: none;
+      border: none;
+      border-radius: 20px;
+      font-size: 1.2rem;
+      background-color: $light-green;
+      padding: 10px 20px;
+    }
+  }
+}
